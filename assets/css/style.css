@@ -1,24 +1,171 @@
+
+
+
+/*everything in the entire document*/
 body {
-background: #8e9eab;  
-background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab); 
-background: linear-gradient(to right, #eef2f3, #8e9eab); 
+	/*background-color: #C5D7D6;*/
+	background-color: #BEDEDC;
+	/*text-align: center;*/
+	/*margin: auto;*/
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: #808080;
+	}
 
 
-}
-
-.header {
-	background-color: #777;
-	height:150px;
-}
-
-.name{
-	height: 80px;
-	width: 100px;
+.name {
+	height: 70px;
+	width: auto;
 	background-color: #4aaaa5;
-	font-family:'Georgia', Times, Times New Roman, serif;
-	font-size:;
+	color: white;
+	position: absolute;
+	left: 190px;
+	bottom: 0;
+	font-size: 46px;
+	padding: 0 15px;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 70px;
+	word-spacing: 10px;
+	/*font-weight: bold;*/
+
+
+}	
+
+img {
+	height: 220px;
+	position: absolute;
+	left: 40px;
+	top: 103px;
+	/*float: left;*/
+	/*clear: both;*/
 }
 
-.right {
+
+.links{
+	height: 70px;
+	width:374px;
 	float: right;
+	position: absolute;
+	right: 59px;
+	bottom: 0;
+	font-size: 22px;
 }
+
+.click{
+	height: 60px;
+	width: auto;
+	float: left;
+	margin-left: 15px;
+	border: black 5px;
+}
+
+
+
+/*the top two areas "title" and "navigation", long and thin*/
+.top{
+	margin-bottom: 30px;
+	height: 107px;
+	position: relative;
+	width: 100%;
+	border-bottom: 3px #4aaaa5 solid;
+
+	}
+
+
+a:hover{
+	background: #4aaaa5;
+}	
+
+a{
+	color: #777;
+}
+
+h1{
+	color:#4aaaa5;
+	/*font-size:32px;*/
+}
+
+.hrone{
+	/*width:450px;*/
+	/*height:5px;*/
+}
+
+.hrtwo{
+	width: 240px;
+}
+
+.center{
+	text-align: center;
+}
+
+/*the two middles areas on the left and right*/
+.halfsize {
+	width: 471px;
+	height: 200px;
+	display: inline;
+	margin-bottom: 25px;
+}
+
+
+/*go over to the right*/
+.goover{
+	float: right;
+	width: 350px;
+	margin-right: 80px;
+}
+
+
+/*go over there to the left*/
+.gothere{
+	float: left;
+	height: 900px;
+	margin-left: 73px;
+	width: 650px;
+	position: relative;
+	padding: 2px 39px;
+
+}
+
+p{
+	line-height: 40px;
+}
+
+/*all sections need to be gray*/
+div, footer {
+	background-color: #fff;
+}
+
+
+/*footer at the bottom*/
+footer{
+	clear: both;
+	margin-top: 25px;
+	height: 85px;
+	border-top: #4aaaa5 5px solid;
+	color: #ebebeb;
+	background-color: #777; 
+	line-height: 85px;
+	text-align: center;
+}
+
+/*the dark area on the left side of the center sections..it contains two little divs*/
+/*.article{
+	background-color: #777;
+	height: 200px;
+	width: 414px;
+	margin: 54px auto;
+	color: #ebebeb;
+}
+
+/*two little divs of stuff inside the article*/
+/*.stuff{
+	height: 50px;
+	width:200px;
+	background-color: #ebebeb;
+	display: block center;
+	margin: 25px auto;
+	color: #777;
+}
+
+/* */
