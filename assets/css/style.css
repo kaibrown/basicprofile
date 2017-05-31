@@ -4,7 +4,7 @@
 /*everything in the entire document*/
 body {
 	/*background-color: #C5D7D6;*/
-	background-color: #BEDEDC;
+	background-color: #B4D2D0;
 	/*text-align: center;*/
 	/*margin: auto;*/
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -12,57 +12,7 @@ body {
 	color: #808080;
 	}
 
-
-.name {
-	height: 70px;
-	width: auto;
-	background-color: #4aaaa5;
-	color: white;
-	position: absolute;
-	left: 190px;
-	bottom: 0;
-	font-size: 46px;
-	padding: 0 15px;
-	text-align: center;
-	letter-spacing: 3px;
-	line-height: 70px;
-	word-spacing: 10px;
-	/*font-weight: bold;*/
-
-
-}	
-
-img {
-	height: 220px;
-	position: absolute;
-	left: 40px;
-	top: 103px;
-	/*float: left;*/
-	/*clear: both;*/
-}
-
-
-.links{
-	height: 70px;
-	width:374px;
-	float: right;
-	position: absolute;
-	right: 59px;
-	bottom: 0;
-	font-size: 22px;
-}
-
-.click{
-	height: 60px;
-	width: auto;
-	float: left;
-	margin-left: 15px;
-	border: black 5px;
-}
-
-
-
-/*the top two areas "title" and "navigation", long and thin*/
+	/*the top two area"long and thin*/
 .top{
 	margin-bottom: 30px;
 	height: 107px;
@@ -72,24 +22,81 @@ img {
 
 	}
 
+/*name plate on index page*/
+.name {
+	height: 70px;
+	width: auto;
+	background-color: #4aaaa5;
+	position: absolute;
+	left: 125px;
+	bottom: 0;
+	font-size: 20px;
+	padding: 0 10px;
+	text-align: center;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	 }	
 
-a:hover{
-	background: #4aaaa5;
+#name{
+	color: #ffffff;
 }	
+
+
+/*set for profile pic, but currently tagged to all images*/
+/*need to fix this if adding any more images to ANY of the website pages*/
+.pimage {
+	height: 220px;
+	position: absolute;
+	left: 40px;
+	top: 103px;
+}	
+
+	
+
+/*This is the surrounding box for the navigation links at the top of the page*/
+.links{
+	height: 70px;
+	width:374px;
+	/*float: right;*/
+	position: absolute;
+	right: 59px;
+	bottom: 0;
+	font-size: 22px;
+}
+
+
+/*The three individual link boxes in the navigation bar "About Me, Portfolio, Contact Me*/
+.click{
+	height: 60px;
+	width: auto;
+	float: left;
+	margin-left: 15px;
+	
+
+}
+
+/*only creates aa background for top 3 links and not the icons*/
+.click:hover{
+	background: #4aaaa5;
+
+}	
+
 
 a{
 	color: #777;
+	text-decoration: none;
 }
+
 
 h1{
 	color:#4aaaa5;
 	/*font-size:32px;*/
 }
 
+
 .hrone{
-	/*width:450px;*/
-	/*height:5px;*/
-}
+	width:515px;
+	}
 
 .hrtwo{
 	width: 240px;
@@ -108,23 +115,46 @@ h1{
 }
 
 
-/*go over to the right*/
+/*ONLY the one on the right*/
 .goover{
 	float: right;
 	width: 350px;
 	margin-right: 80px;
+	/*position: relative;*/
 }
 
 
-/*go over there to the left*/
+/*ONLY the one on the left*/
 .gothere{
 	float: left;
-	height: 900px;
+	height: 875px;
 	margin-left: 73px;
 	width: 650px;
 	position: relative;
 	padding: 2px 39px;
 
+}
+
+/*.words{*/
+	/*position: */
+
+
+.iconic{
+	height: 80px;
+	width: 80px;
+	margin-right: 18px;
+	margin-left: 15px;
+	
+}	
+
+/*a.side:hover{
+	background-color: none;
+}*/
+
+
+
+#tinypush{
+	margin-left: 25px;
 }
 
 p{
@@ -149,23 +179,68 @@ footer{
 	text-align: center;
 }
 
-/*the dark area on the left side of the center sections..it contains two little divs*/
-/*.article{
-	background-color: #777;
-	height: 200px;
-	width: 414px;
-	margin: 54px auto;
-	color: #ebebeb;
+/*NEXT*/
+/*IS*/
+/*CSS*/
+/*FOR*/
+/*PORTFOLIO*/
+/*PAGE*/
+
+
+.displaybox{
+		width:260px;
+		height:190px;
+		background-color: #4aaaa5;
+		float: left;
+		margin:30px 30px;
+		position: relative;
 }
 
-/*two little divs of stuff inside the article*/
-/*.stuff{
+/*.portfolio{
+	float: left;
+	height: 900px;
+	margin-left: 73px;
+	width: 650px;
+	position: relative;
+	padding: 2px 39px;
+}*/
+
+
+.littlelabel{
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
 	height: 50px;
-	width:200px;
-	background-color: #ebebeb;
-	display: block center;
-	margin: 25px auto;
-	color: #777;
+	text-align: center;
+	line-height: 45px;
+
 }
 
-/* */
+/*THIS*/
+/*IS*/
+/*CSS FOR*/
+/*MY CONTACT*/
+/*PAGE*/
+
+form{
+	font-size: 22px;
+}
+
+input {
+	width: 96%;
+	padding: 12px;
+	margin: 20px 0;
+}
+
+#message{
+	height: 250px;
+}
+
+input[type=submit]{
+
+	width: 150px;
+	background-color: #4aaaa5;
+	border: none;
+	height: 50px;
+	font-size: 20px;
+}
