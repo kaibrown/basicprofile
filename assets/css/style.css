@@ -77,7 +77,7 @@ body {
 
 /*only creates aa background for top 3 links and not the icons*/
 .click:hover{
-	background: #4aaaa5;
+	background-color: #4aaaa5;
 
 }	
 
